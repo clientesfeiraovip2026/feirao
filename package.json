@@ -1,0 +1,27 @@
+{
+  "name": "feirao-netlify",
+  "version": "1.0.0",
+  "description": "Feirão Serasa - Funil de Vendas com Netlify",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build complete'",
+    "dev": "netlify dev",
+    "start": "netlify dev"
+  },
+  "keywords": [
+    "feirão",
+    "serasa",
+    "pix",
+    "upsell"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  }
+}
